@@ -28,9 +28,9 @@ const AppNavbar = () => {
               </div>
             </div>
           <div className={`lg:flex lg:space-x-7 ${isTrue ? "block":"hidden"}`}>
-            <NavLink to={"collection"} className="flex items-center"> <HiShoppingCart className='mr-1' />Collections</NavLink>
-            <NavLink to={"location"} className="flex items-center"><HiHome className='mr-1' /> Location</NavLink>
-            <NavLink to={"contact"} className="flex items-center"><HiChatBubbleBottomCenterText className='mr-1' /> Contact</NavLink>
+            <NavLink to={"/collection"} className="flex items-center"> <HiShoppingCart className='mr-1' />Collections</NavLink>
+            <NavLink to={"/location"} className="flex items-center"><HiHome className='mr-1' /> Location</NavLink>
+            <NavLink to={"/contact"} className="flex items-center"><HiChatBubbleBottomCenterText className='mr-1' /> Contact</NavLink>
           </div>
           <div className={`lg:flex lg:space-x-7 ${isTrue ? "block":"hidden"}`}>
 

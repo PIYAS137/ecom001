@@ -5,7 +5,7 @@ const SwiperDiv = ({data}) => {
 
   const navigate = useNavigate()
   const handleClick=()=>{
-    navigate('collection')
+    navigate('/collection')
   }
 
   return (

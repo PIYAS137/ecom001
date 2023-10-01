@@ -5,7 +5,7 @@ const Promotion = () => {
 
     const navigate=useNavigate()
     const handleClickNavigate=()=>{
-        navigate('collection')
+        navigate('/collection')
     }
 
 
