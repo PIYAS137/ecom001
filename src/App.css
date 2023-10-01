@@ -1,0 +1,25 @@
+nav .active{
+    color:rgb(218, 3, 3)!important;
+}
+.bgAll{
+    background: #F7F5EB;
+}
+.bsi{
+    background-size: cover;
+    background-position: center;
+}
+.cardHov:hover{
+    /* transform: scale(1.1); */
+     background: wheat;
+}
+.activeButton{
+    background: red;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+.sideBarFreez{
+    height: calc(100vh - 78px);
+}
+
+
