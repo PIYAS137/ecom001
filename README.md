@@ -4,6 +4,7 @@
 
 ## Features : 
 <ol>
+    <li>Cart Functionality</li>
     <li>Context API</li>
     <li>React Router DOM</li>
     <li>Conditional Rendering</li>
